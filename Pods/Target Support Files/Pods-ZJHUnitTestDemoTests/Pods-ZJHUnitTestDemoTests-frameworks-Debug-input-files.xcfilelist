@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ZJHUnitTestDemoTests/Pods-ZJHUnitTestDemoTests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Kiwi/Kiwi.framework
+${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework
