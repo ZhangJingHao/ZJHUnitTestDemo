@@ -34,6 +34,14 @@
 		216FA5ED2887E42200EFAD78 /* ZJHFirstKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5EC2887E42200EFAD78 /* ZJHFirstKiwiTests.m */; };
 		216FA5EF2887E91600EFAD78 /* ZJHSecondKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5EE2887E91600EFAD78 /* ZJHSecondKiwiTests.m */; };
 		216FA5F42887EEAA00EFAD78 /* ZJHThirdKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5F32887EEAA00EFAD78 /* ZJHThirdKiwiTests.m */; };
+		21A782A428A3626300478264 /* ZJHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A782A328A3626300478264 /* ZJHLoginViewController.m */; };
+		21A782A728A3780900478264 /* TTRecordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A782A628A3780900478264 /* TTRecordListViewController.m */; };
+		21A782AC28A3781D00478264 /* TTRecordCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A782AA28A3781D00478264 /* TTRecordCellTableViewCell.xib */; };
+		21A782AD28A3781D00478264 /* TTRecordCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A782AB28A3781D00478264 /* TTRecordCellTableViewCell.m */; };
+		21A782B028A378B100478264 /* TTRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A782AE28A378B100478264 /* TTRecordViewController.m */; };
+		21A782B328A378FF00478264 /* TTFakeNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A782B128A378FF00478264 /* TTFakeNetworking.m */; };
+		21A782B728A379CF00478264 /* TTDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A782B628A379CF00478264 /* TTDateFormatter.m */; };
+		21A782BB28A3A6EA00478264 /* ZJHUIRecordingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A782BA28A3A6EA00478264 /* ZJHUIRecordingTests.m */; };
 		21D1B86A28922D71000E8E6E /* MOPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D1B86928922D71000E8E6E /* MOPerson.m */; };
 		21D1B86D28925BC1000E8E6E /* MOMen.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D1B86C28925BC1000E8E6E /* MOMen.m */; };
 		21D1B87028925BD1000E8E6E /* MOAnimaiton.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D1B86F28925BD1000E8E6E /* MOAnimaiton.m */; };
@@ -122,6 +130,21 @@
 		216FA5EC2887E42200EFAD78 /* ZJHFirstKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHFirstKiwiTests.m; sourceTree = "<group>"; };
 		216FA5EE2887E91600EFAD78 /* ZJHSecondKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHSecondKiwiTests.m; sourceTree = "<group>"; };
 		216FA5F32887EEAA00EFAD78 /* ZJHThirdKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHThirdKiwiTests.m; sourceTree = "<group>"; };
+		21A782A228A3626300478264 /* ZJHLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHLoginViewController.h; sourceTree = "<group>"; };
+		21A782A328A3626300478264 /* ZJHLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHLoginViewController.m; sourceTree = "<group>"; };
+		21A782A528A3780900478264 /* TTRecordListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTRecordListViewController.h; sourceTree = "<group>"; };
+		21A782A628A3780900478264 /* TTRecordListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTRecordListViewController.m; sourceTree = "<group>"; };
+		21A782A928A3781D00478264 /* TTRecordCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRecordCellTableViewCell.h; sourceTree = "<group>"; };
+		21A782AA28A3781D00478264 /* TTRecordCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTRecordCellTableViewCell.xib; sourceTree = "<group>"; };
+		21A782AB28A3781D00478264 /* TTRecordCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRecordCellTableViewCell.m; sourceTree = "<group>"; };
+		21A782AE28A378B100478264 /* TTRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTRecordViewController.m; sourceTree = "<group>"; };
+		21A782AF28A378B100478264 /* TTRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTRecordViewController.h; sourceTree = "<group>"; };
+		21A782B128A378FF00478264 /* TTFakeNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFakeNetworking.m; sourceTree = "<group>"; };
+		21A782B228A378FF00478264 /* TTFakeNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFakeNetworking.h; sourceTree = "<group>"; };
+		21A782B428A3793100478264 /* TTConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTConstant.h; sourceTree = "<group>"; };
+		21A782B528A379CF00478264 /* TTDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDateFormatter.h; sourceTree = "<group>"; };
+		21A782B628A379CF00478264 /* TTDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDateFormatter.m; sourceTree = "<group>"; };
+		21A782BA28A3A6EA00478264 /* ZJHUIRecordingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHUIRecordingTests.m; sourceTree = "<group>"; };
 		21D1B86828922D71000E8E6E /* MOPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOPerson.h; sourceTree = "<group>"; };
 		21D1B86928922D71000E8E6E /* MOPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOPerson.m; sourceTree = "<group>"; };
 		21D1B86B28925BC1000E8E6E /* MOMen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MOMen.h; sourceTree = "<group>"; };
@@ -293,9 +316,10 @@
 				212EED372887D51F00A3483C /* SceneDelegate.m */,
 				212EED392887D51F00A3483C /* ViewController.h */,
 				212EED3A2887D51F00A3483C /* ViewController.m */,
-				21D9BB25289154F100CCD45C /* OCMockClass */,
 				21D9BB10289143A100CCD45C /*  XCTestCaseClass */,
+				21D9BB25289154F100CCD45C /* OCMockClass */,
 				21D9BB2328914CC900CCD45C /* KiwiClass */,
+				21A782A128A3623300478264 /* UITestClass */,
 				212EED3C2887D51F00A3483C /* Main.storyboard */,
 				212EED3F2887D52100A3483C /* Assets.xcassets */,
 				212EED412887D52100A3483C /* LaunchScreen.storyboard */,
@@ -320,8 +344,38 @@
 			children = (
 				212EED592887D52100A3483C /* ZJHUnitTestDemoUITests.m */,
 				212EED5B2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m */,
+				21A782BA28A3A6EA00478264 /* ZJHUIRecordingTests.m */,
 			);
 			path = ZJHUnitTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		21A782A128A3623300478264 /* UITestClass */ = {
+			isa = PBXGroup;
+			children = (
+				21A782A228A3626300478264 /* ZJHLoginViewController.h */,
+				21A782A328A3626300478264 /* ZJHLoginViewController.m */,
+				21A782A528A3780900478264 /* TTRecordListViewController.h */,
+				21A782A628A3780900478264 /* TTRecordListViewController.m */,
+				21A782AF28A378B100478264 /* TTRecordViewController.h */,
+				21A782AE28A378B100478264 /* TTRecordViewController.m */,
+				21A782B228A378FF00478264 /* TTFakeNetworking.h */,
+				21A782B128A378FF00478264 /* TTFakeNetworking.m */,
+				21A782B428A3793100478264 /* TTConstant.h */,
+				21A782A828A3781D00478264 /* CustomCells */,
+			);
+			path = UITestClass;
+			sourceTree = "<group>";
+		};
+		21A782A828A3781D00478264 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				21A782B528A379CF00478264 /* TTDateFormatter.h */,
+				21A782B628A379CF00478264 /* TTDateFormatter.m */,
+				21A782A928A3781D00478264 /* TTRecordCellTableViewCell.h */,
+				21A782AB28A3781D00478264 /* TTRecordCellTableViewCell.m */,
+				21A782AA28A3781D00478264 /* TTRecordCellTableViewCell.xib */,
+			);
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 		21D9BB10289143A100CCD45C /*  XCTestCaseClass */ = {
@@ -531,6 +585,7 @@
 				210992A02897D4B500C5269E /* photodata.bin in Resources */,
 				212EED432887D52100A3483C /* LaunchScreen.storyboard in Resources */,
 				212EED402887D52100A3483C /* Assets.xcassets in Resources */,
+				21A782AC28A3781D00478264 /* TTRecordCellTableViewCell.xib in Resources */,
 				212EED3E2887D51F00A3483C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -651,13 +706,19 @@
 				210992A62897D4B500C5269E /* ZJHKiwiCar.m in Sources */,
 				210992AB2897D4DF00C5269E /* PhotosViewController.m in Sources */,
 				21D9BB17289143AF00CCD45C /* ZJHMathTool.m in Sources */,
+				21A782A728A3780900478264 /* TTRecordListViewController.m in Sources */,
+				21A782B728A379CF00478264 /* TTDateFormatter.m in Sources */,
 				210992A32897D4B500C5269E /* PhotoViewController.m in Sources */,
+				21A782B028A378B100478264 /* TTRecordViewController.m in Sources */,
 				21D9BB36289156EE00CCD45C /* ZJHTwitterViewController.m in Sources */,
 				210992A42897D4B500C5269E /* PhotoCell+ConfigureForPhoto.m in Sources */,
 				21D1B87C28928763000E8E6E /* MOPerson+Tests.m in Sources */,
+				21A782AD28A3781D00478264 /* TTRecordCellTableViewCell.m in Sources */,
 				21D1B86D28925BC1000E8E6E /* MOMen.m in Sources */,
 				21D1B87028925BD1000E8E6E /* MOAnimaiton.m in Sources */,
+				21A782A428A3626300478264 /* ZJHLoginViewController.m in Sources */,
 				21D1B87F2892A60C000E8E6E /* ZJHOrderListViewController.m in Sources */,
+				21A782B328A378FF00478264 /* TTFakeNetworking.m in Sources */,
 				212EED3B2887D51F00A3483C /* ViewController.m in Sources */,
 				212EED352887D51F00A3483C /* AppDelegate.m in Sources */,
 				212EED462887D52100A3483C /* main.m in Sources */,
@@ -699,6 +760,7 @@
 			files = (
 				212EED5C2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m in Sources */,
 				212EED5A2887D52100A3483C /* ZJHUnitTestDemoUITests.m in Sources */,
+				21A782BB28A3A6EA00478264 /* ZJHUIRecordingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,7 +926,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -892,7 +954,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

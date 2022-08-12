@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "PhotosViewController.h"
+#import "ZJHLoginViewController.h"
 
 @interface ViewController ()
 
@@ -16,9 +17,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"首页";
+    self.title = @"Home";
     
-    NSArray *nameArr = @[@"Kiwi示例", @"UI测试示例"];
+    [self setupUI];
+}
+
+- (void)setupUI {
+    NSArray *nameArr = @[@"Kiwi示例", @"UI测试示例", @"UI Recording"];
     CGFloat btnW = self.view.frame.size.width * 0.6;
     CGFloat btnX = (self.view.frame.size.width - btnW) / 2;
     CGFloat btnH = 44;
@@ -46,7 +51,14 @@
         [self.navigationController pushViewController:vc animated:YES];
     }
     else if (btn.tag == 1) {
-        NSLog(@"btn.tag == 1");
+        ZJHLoginViewController *vc = [ZJHLoginViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if (btn.tag == 2) {
+        UIViewController *vc = [UIViewController new];
+        vc.view.backgroundColor = [UIColor systemBackgroundColor];
+        vc.title = @"Hello world";
+        [self.navigationController pushViewController:vc animated:YES];
     }
 }
 
