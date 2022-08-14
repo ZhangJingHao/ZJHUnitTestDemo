@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "PhotosViewController.h"
 #import "ZJHLoginViewController.h"
+#import "AccessibilityViewController.h"
 
 @interface ViewController ()
 
@@ -18,12 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Home";
-    
+//    self.view.backgroundColor = [UIColor redColor];
     [self setupUI];
 }
 
 - (void)setupUI {
-    NSArray *nameArr = @[@"Kiwi示例", @"UI测试示例", @"UI Recording"];
+    NSArray *nameArr = @[@"Kiwi示例", @"UITestDemo", @"UI Recording", @"Accessibility Demo"];
     CGFloat btnW = self.view.frame.size.width * 0.6;
     CGFloat btnX = (self.view.frame.size.width - btnW) / 2;
     CGFloat btnH = 44;
@@ -58,6 +59,9 @@
         UIViewController *vc = [UIViewController new];
         vc.view.backgroundColor = [UIColor systemBackgroundColor];
         vc.title = @"Hello world";
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (btn.tag == 3) {
+        AccessibilityViewController *vc = [AccessibilityViewController new];
         [self.navigationController pushViewController:vc animated:YES];
     }
 }

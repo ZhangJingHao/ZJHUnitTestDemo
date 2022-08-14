@@ -59,7 +59,7 @@
 - (void)recordDoneAction:(id)sender {
     self.tempRecordString = self.mTextView.text;
     
-    if (self.tempRecordString) {
+    if (self.tempRecordString.length) {
         [self saveRecordWithMsg:self.tempRecordString];
     }else{
         NSLog(@"您还没有输入任何内容！");

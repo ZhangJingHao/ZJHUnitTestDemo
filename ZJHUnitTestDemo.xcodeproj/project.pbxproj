@@ -22,6 +22,9 @@
 		210992AF2897D86100C5269E /* ArrayDataSourceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 210992AE2897D86100C5269E /* ArrayDataSourceSpec.m */; };
 		210992B12897D88E00C5269E /* PhotoCellSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 210992B02897D88E00C5269E /* PhotoCellSpec.m */; };
 		210992B32897D8A700C5269E /* PhotosViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 210992B22897D8A700C5269E /* PhotosViewControllerSpec.m */; };
+		2116E67128A7550100678BD7 /* ZJHMultiAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116E67028A7550100678BD7 /* ZJHMultiAppTests.m */; };
+		2116E67428A7971900678BD7 /* AccessibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116E67328A7971900678BD7 /* AccessibilityViewController.m */; };
+		2116E67628A79E1F00678BD7 /* AccessibilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116E67528A79E1F00678BD7 /* AccessibilityUITests.m */; };
 		212EED352887D51F00A3483C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED342887D51F00A3483C /* AppDelegate.m */; };
 		212EED382887D51F00A3483C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED372887D51F00A3483C /* SceneDelegate.m */; };
 		212EED3B2887D51F00A3483C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED3A2887D51F00A3483C /* ViewController.m */; };
@@ -31,6 +34,8 @@
 		212EED462887D52100A3483C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED452887D52100A3483C /* main.m */; };
 		212EED5A2887D52100A3483C /* ZJHUnitTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED592887D52100A3483C /* ZJHUnitTestDemoUITests.m */; };
 		212EED5C2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED5B2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m */; };
+		21419E9628A64DAE00B60A81 /* ZJHLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21419E9528A64DAE00B60A81 /* ZJHLoginUITests.m */; };
+		21419E9828A64DCC00B60A81 /* ZJHRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21419E9728A64DCC00B60A81 /* ZJHRecordUITests.m */; };
 		216FA5ED2887E42200EFAD78 /* ZJHFirstKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5EC2887E42200EFAD78 /* ZJHFirstKiwiTests.m */; };
 		216FA5EF2887E91600EFAD78 /* ZJHSecondKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5EE2887E91600EFAD78 /* ZJHSecondKiwiTests.m */; };
 		216FA5F42887EEAA00EFAD78 /* ZJHThirdKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5F32887EEAA00EFAD78 /* ZJHThirdKiwiTests.m */; };
@@ -111,6 +116,10 @@
 		210992AE2897D86100C5269E /* ArrayDataSourceSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayDataSourceSpec.m; sourceTree = "<group>"; };
 		210992B02897D88E00C5269E /* PhotoCellSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCellSpec.m; sourceTree = "<group>"; };
 		210992B22897D8A700C5269E /* PhotosViewControllerSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosViewControllerSpec.m; sourceTree = "<group>"; };
+		2116E67028A7550100678BD7 /* ZJHMultiAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHMultiAppTests.m; sourceTree = "<group>"; };
+		2116E67228A7971900678BD7 /* AccessibilityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessibilityViewController.h; sourceTree = "<group>"; };
+		2116E67328A7971900678BD7 /* AccessibilityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessibilityViewController.m; sourceTree = "<group>"; };
+		2116E67528A79E1F00678BD7 /* AccessibilityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessibilityUITests.m; sourceTree = "<group>"; };
 		212EED302887D51F00A3483C /* ZJHUnitTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJHUnitTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		212EED332887D51F00A3483C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		212EED342887D51F00A3483C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,6 +136,8 @@
 		212EED552887D52100A3483C /* ZJHUnitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJHUnitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212EED592887D52100A3483C /* ZJHUnitTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHUnitTestDemoUITests.m; sourceTree = "<group>"; };
 		212EED5B2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHUnitTestDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		21419E9528A64DAE00B60A81 /* ZJHLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHLoginUITests.m; sourceTree = "<group>"; };
+		21419E9728A64DCC00B60A81 /* ZJHRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHRecordUITests.m; sourceTree = "<group>"; };
 		216FA5EC2887E42200EFAD78 /* ZJHFirstKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHFirstKiwiTests.m; sourceTree = "<group>"; };
 		216FA5EE2887E91600EFAD78 /* ZJHSecondKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHSecondKiwiTests.m; sourceTree = "<group>"; };
 		216FA5F32887EEAA00EFAD78 /* ZJHThirdKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHThirdKiwiTests.m; sourceTree = "<group>"; };
@@ -345,6 +356,10 @@
 				212EED592887D52100A3483C /* ZJHUnitTestDemoUITests.m */,
 				212EED5B2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m */,
 				21A782BA28A3A6EA00478264 /* ZJHUIRecordingTests.m */,
+				21419E9528A64DAE00B60A81 /* ZJHLoginUITests.m */,
+				21419E9728A64DCC00B60A81 /* ZJHRecordUITests.m */,
+				2116E67028A7550100678BD7 /* ZJHMultiAppTests.m */,
+				2116E67528A79E1F00678BD7 /* AccessibilityUITests.m */,
 			);
 			path = ZJHUnitTestDemoUITests;
 			sourceTree = "<group>";
@@ -362,6 +377,8 @@
 				21A782B128A378FF00478264 /* TTFakeNetworking.m */,
 				21A782B428A3793100478264 /* TTConstant.h */,
 				21A782A828A3781D00478264 /* CustomCells */,
+				2116E67228A7971900678BD7 /* AccessibilityViewController.h */,
+				2116E67328A7971900678BD7 /* AccessibilityViewController.m */,
 			);
 			path = UITestClass;
 			sourceTree = "<group>";
@@ -710,6 +727,7 @@
 				21A782B728A379CF00478264 /* TTDateFormatter.m in Sources */,
 				210992A32897D4B500C5269E /* PhotoViewController.m in Sources */,
 				21A782B028A378B100478264 /* TTRecordViewController.m in Sources */,
+				2116E67428A7971900678BD7 /* AccessibilityViewController.m in Sources */,
 				21D9BB36289156EE00CCD45C /* ZJHTwitterViewController.m in Sources */,
 				210992A42897D4B500C5269E /* PhotoCell+ConfigureForPhoto.m in Sources */,
 				21D1B87C28928763000E8E6E /* MOPerson+Tests.m in Sources */,
@@ -760,6 +778,10 @@
 			files = (
 				212EED5C2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m in Sources */,
 				212EED5A2887D52100A3483C /* ZJHUnitTestDemoUITests.m in Sources */,
+				21419E9828A64DCC00B60A81 /* ZJHRecordUITests.m in Sources */,
+				21419E9628A64DAE00B60A81 /* ZJHLoginUITests.m in Sources */,
+				2116E67128A7550100678BD7 /* ZJHMultiAppTests.m in Sources */,
+				2116E67628A79E1F00678BD7 /* AccessibilityUITests.m in Sources */,
 				21A782BB28A3A6EA00478264 /* ZJHUIRecordingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
