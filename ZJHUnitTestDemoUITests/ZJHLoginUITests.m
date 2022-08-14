@@ -115,7 +115,7 @@
      (lldb) */
     
     // 点击键盘 shift，切换大小写
-    [app.buttons[@"shift"] tap];
+    [app.buttons[@"shift"] tap]; // 模拟器运行的话，需要先 command + shift + k，让键盘弹起来
     
     // 点击键盘 a
     XCUIElement *aKey = app.keys[@"a"];

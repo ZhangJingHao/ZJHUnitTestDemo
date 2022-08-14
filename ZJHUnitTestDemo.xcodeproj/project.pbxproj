@@ -35,8 +35,6 @@
 		212EED402887D52100A3483C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212EED3F2887D52100A3483C /* Assets.xcassets */; };
 		212EED432887D52100A3483C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212EED412887D52100A3483C /* LaunchScreen.storyboard */; };
 		212EED462887D52100A3483C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED452887D52100A3483C /* main.m */; };
-		212EED5A2887D52100A3483C /* ZJHUnitTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED592887D52100A3483C /* ZJHUnitTestDemoUITests.m */; };
-		212EED5C2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED5B2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m */; };
 		21419E9628A64DAE00B60A81 /* ZJHLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21419E9528A64DAE00B60A81 /* ZJHLoginUITests.m */; };
 		21419E9828A64DCC00B60A81 /* ZJHRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21419E9728A64DCC00B60A81 /* ZJHRecordUITests.m */; };
 		216FA5ED2887E42200EFAD78 /* ZJHFirstKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5EC2887E42200EFAD78 /* ZJHFirstKiwiTests.m */; };
@@ -148,8 +146,6 @@
 		212EED452887D52100A3483C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		212EED4B2887D52100A3483C /* ZJHUnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJHUnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		212EED552887D52100A3483C /* ZJHUnitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJHUnitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		212EED592887D52100A3483C /* ZJHUnitTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHUnitTestDemoUITests.m; sourceTree = "<group>"; };
-		212EED5B2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHUnitTestDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
 		21419E9528A64DAE00B60A81 /* ZJHLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHLoginUITests.m; sourceTree = "<group>"; };
 		21419E9728A64DCC00B60A81 /* ZJHRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHRecordUITests.m; sourceTree = "<group>"; };
 		216FA5EC2887E42200EFAD78 /* ZJHFirstKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHFirstKiwiTests.m; sourceTree = "<group>"; };
@@ -390,8 +386,6 @@
 		212EED582887D52100A3483C /* ZJHUnitTestDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				212EED592887D52100A3483C /* ZJHUnitTestDemoUITests.m */,
-				212EED5B2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m */,
 				21A782BA28A3A6EA00478264 /* ZJHUIRecordingTests.m */,
 				21419E9528A64DAE00B60A81 /* ZJHLoginUITests.m */,
 				21419E9728A64DCC00B60A81 /* ZJHRecordUITests.m */,
@@ -896,8 +890,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				212EED5C2887D52100A3483C /* ZJHUnitTestDemoUITestsLaunchTests.m in Sources */,
-				212EED5A2887D52100A3483C /* ZJHUnitTestDemoUITests.m in Sources */,
 				21419E9828A64DCC00B60A81 /* ZJHRecordUITests.m in Sources */,
 				21419E9628A64DAE00B60A81 /* ZJHLoginUITests.m in Sources */,
 				2116E67128A7550100678BD7 /* ZJHMultiAppTests.m in Sources */,
@@ -1217,7 +1209,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C6DERJ4N54;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1240,7 +1232,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = C6DERJ4N54;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
