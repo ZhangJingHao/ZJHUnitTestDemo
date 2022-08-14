@@ -9,6 +9,7 @@
 #import "PhotosViewController.h"
 #import "ZJHLoginViewController.h"
 #import "AccessibilityViewController.h"
+#import "ZJHKIFLoginViewController.h"
 
 @interface ViewController ()
 
@@ -24,7 +25,7 @@
 }
 
 - (void)setupUI {
-    NSArray *nameArr = @[@"Kiwi示例", @"UITestDemo", @"UI Recording", @"Accessibility Demo"];
+    NSArray *nameArr = @[@"Kiwi示例", @"UITestDemo", @"UI Recording", @"Accessibility Demo", @"KIFUnitTest"];
     CGFloat btnW = self.view.frame.size.width * 0.6;
     CGFloat btnX = (self.view.frame.size.width - btnW) / 2;
     CGFloat btnH = 44;
@@ -63,7 +64,11 @@
     } else if (btn.tag == 3) {
         AccessibilityViewController *vc = [AccessibilityViewController new];
         [self.navigationController pushViewController:vc animated:YES];
+    } else if (btn.tag == 4) {
+        ZJHKIFLoginViewController *vc = [ZJHKIFLoginViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
     }
+    
 }
 
 @end

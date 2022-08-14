@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1566C5A4F312B555B5145290 /* Pods_ZJHUnitTestDemo_ZJHKIFUnitTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9521ACCC0BE4344BB309D93B /* Pods_ZJHUnitTestDemo_ZJHKIFUnitTestDemoTests.framework */; };
 		2109929F2897D4B500C5269E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 210992882897D4B500C5269E /* User.m */; };
 		210992A02897D4B500C5269E /* photodata.bin in Resources */ = {isa = PBXBuildFile; fileRef = 210992892897D4B500C5269E /* photodata.bin */; };
 		210992A12897D4B500C5269E /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2109928A2897D4B500C5269E /* Photo.m */; };
@@ -25,6 +26,8 @@
 		2116E67128A7550100678BD7 /* ZJHMultiAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116E67028A7550100678BD7 /* ZJHMultiAppTests.m */; };
 		2116E67428A7971900678BD7 /* AccessibilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116E67328A7971900678BD7 /* AccessibilityViewController.m */; };
 		2116E67628A79E1F00678BD7 /* AccessibilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116E67528A79E1F00678BD7 /* AccessibilityUITests.m */; };
+		2125A19628A8E99200703165 /* ZJHKIFUnitTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2125A19528A8E99200703165 /* ZJHKIFUnitTestDemoTests.m */; };
+		2125A19E28A8F20A00703165 /* ZJHKIFLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2125A19D28A8F20A00703165 /* ZJHKIFLoginViewController.m */; };
 		212EED352887D51F00A3483C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED342887D51F00A3483C /* AppDelegate.m */; };
 		212EED382887D51F00A3483C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED372887D51F00A3483C /* SceneDelegate.m */; };
 		212EED3B2887D51F00A3483C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212EED3A2887D51F00A3483C /* ViewController.m */; };
@@ -73,6 +76,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2125A19728A8E99200703165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212EED282887D51F00A3483C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212EED2F2887D51F00A3483C;
+			remoteInfo = ZJHUnitTestDemo;
+		};
 		212EED4C2887D52100A3483C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 212EED282887D51F00A3483C /* Project object */;
@@ -120,6 +130,10 @@
 		2116E67228A7971900678BD7 /* AccessibilityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessibilityViewController.h; sourceTree = "<group>"; };
 		2116E67328A7971900678BD7 /* AccessibilityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessibilityViewController.m; sourceTree = "<group>"; };
 		2116E67528A79E1F00678BD7 /* AccessibilityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessibilityUITests.m; sourceTree = "<group>"; };
+		2125A19328A8E99200703165 /* ZJHKIFUnitTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJHKIFUnitTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2125A19528A8E99200703165 /* ZJHKIFUnitTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHKIFUnitTestDemoTests.m; sourceTree = "<group>"; };
+		2125A19C28A8F20A00703165 /* ZJHKIFLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHKIFLoginViewController.h; sourceTree = "<group>"; };
+		2125A19D28A8F20A00703165 /* ZJHKIFLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHKIFLoginViewController.m; sourceTree = "<group>"; };
 		212EED302887D51F00A3483C /* ZJHUnitTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJHUnitTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		212EED332887D51F00A3483C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		212EED342887D51F00A3483C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -189,17 +203,28 @@
 		21D9BB34289156EE00CCD45C /* ZJHTwitterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHTwitterViewController.h; sourceTree = "<group>"; };
 		21D9BB35289156EE00CCD45C /* ZJHTwitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHTwitterViewController.m; sourceTree = "<group>"; };
 		21D9BB372891572A00CCD45C /* ZJHTwitterViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHTwitterViewControllerTests.m; sourceTree = "<group>"; };
+		27ECCDC22D0A0587BC27FD7D /* Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4D808ED2EE0D868B62186BCC /* Pods_ZJHUnitTestDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJHUnitTestDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F862B36AC86960BB7CB9DE6 /* Pods-ZJHUnitTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJHUnitTestDemo.debug.xcconfig"; path = "Target Support Files/Pods-ZJHUnitTestDemo/Pods-ZJHUnitTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		65C77C625231756ED976F4D5 /* Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests/Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6B11DB765E027D202BC22972 /* Pods-ZJHUnitTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJHUnitTestDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ZJHUnitTestDemoTests/Pods-ZJHUnitTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		72B55DB162E85A01E60A8BB1 /* Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests/Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9521ACCC0BE4344BB309D93B /* Pods_ZJHUnitTestDemo_ZJHKIFUnitTestDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJHUnitTestDemo_ZJHKIFUnitTestDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6D14C68510A8A27E633882 /* Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.release.xcconfig"; path = "Target Support Files/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		B82627A84F2E0333056813BF /* Pods_ZJHUnitTestDemo_ZJHUnitTestDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJHUnitTestDemo_ZJHUnitTestDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6F2158AD28BFDE8CBC316E /* Pods-ZJHUnitTestDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJHUnitTestDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-ZJHUnitTestDemoTests/Pods-ZJHUnitTestDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCE6803728347DCCA182A760 /* Pods-ZJHUnitTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJHUnitTestDemo.release.xcconfig"; path = "Target Support Files/Pods-ZJHUnitTestDemo/Pods-ZJHUnitTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2125A19028A8E99200703165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1566C5A4F312B555B5145290 /* Pods_ZJHUnitTestDemo_ZJHKIFUnitTestDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		212EED2D2887D51F00A3483C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +261,8 @@
 				65C77C625231756ED976F4D5 /* Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests.release.xcconfig */,
 				CA6F2158AD28BFDE8CBC316E /* Pods-ZJHUnitTestDemoTests.debug.xcconfig */,
 				6B11DB765E027D202BC22972 /* Pods-ZJHUnitTestDemoTests.release.xcconfig */,
+				27ECCDC22D0A0587BC27FD7D /* Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.debug.xcconfig */,
+				AF6D14C68510A8A27E633882 /* Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -296,12 +323,21 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		2125A19428A8E99200703165 /* ZJHKIFUnitTestDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2125A19528A8E99200703165 /* ZJHKIFUnitTestDemoTests.m */,
+			);
+			path = ZJHKIFUnitTestDemoTests;
+			sourceTree = "<group>";
+		};
 		212EED272887D51F00A3483C = {
 			isa = PBXGroup;
 			children = (
 				212EED322887D51F00A3483C /* ZJHUnitTestDemo */,
 				212EED4E2887D52100A3483C /* ZJHUnitTestDemoTests */,
 				212EED582887D52100A3483C /* ZJHUnitTestDemoUITests */,
+				2125A19428A8E99200703165 /* ZJHKIFUnitTestDemoTests */,
 				212EED312887D51F00A3483C /* Products */,
 				0D0C187B236F1DA8D5BE3BF7 /* Pods */,
 				35F0B97FE7A97DAD9E4CA052 /* Frameworks */,
@@ -314,6 +350,7 @@
 				212EED302887D51F00A3483C /* ZJHUnitTestDemo.app */,
 				212EED4B2887D52100A3483C /* ZJHUnitTestDemoTests.xctest */,
 				212EED552887D52100A3483C /* ZJHUnitTestDemoUITests.xctest */,
+				2125A19328A8E99200703165 /* ZJHKIFUnitTestDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -379,6 +416,8 @@
 				21A782A828A3781D00478264 /* CustomCells */,
 				2116E67228A7971900678BD7 /* AccessibilityViewController.h */,
 				2116E67328A7971900678BD7 /* AccessibilityViewController.m */,
+				2125A19C28A8F20A00703165 /* ZJHKIFLoginViewController.h */,
+				2125A19D28A8F20A00703165 /* ZJHKIFLoginViewController.m */,
 			);
 			path = UITestClass;
 			sourceTree = "<group>";
@@ -488,6 +527,7 @@
 				0F99A02A316982568E2367EF /* Pods_ZJHUnitTestDemo.framework */,
 				B82627A84F2E0333056813BF /* Pods_ZJHUnitTestDemo_ZJHUnitTestDemoUITests.framework */,
 				4D808ED2EE0D868B62186BCC /* Pods_ZJHUnitTestDemoTests.framework */,
+				9521ACCC0BE4344BB309D93B /* Pods_ZJHUnitTestDemo_ZJHKIFUnitTestDemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -495,6 +535,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2125A19228A8E99200703165 /* ZJHKIFUnitTestDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2125A19B28A8E99200703165 /* Build configuration list for PBXNativeTarget "ZJHKIFUnitTestDemoTests" */;
+			buildPhases = (
+				CEB875D9EF0820F853F5CDE2 /* [CP] Check Pods Manifest.lock */,
+				2125A18F28A8E99200703165 /* Sources */,
+				2125A19028A8E99200703165 /* Frameworks */,
+				2125A19128A8E99200703165 /* Resources */,
+				2100F69F0F63F9725A173DB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2125A19828A8E99200703165 /* PBXTargetDependency */,
+			);
+			name = ZJHKIFUnitTestDemoTests;
+			productName = ZJHKIFUnitTestDemoTests;
+			productReference = 2125A19328A8E99200703165 /* ZJHKIFUnitTestDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		212EED2F2887D51F00A3483C /* ZJHUnitTestDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 212EED5F2887D52100A3483C /* Build configuration list for PBXNativeTarget "ZJHUnitTestDemo" */;
@@ -561,6 +621,10 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					2125A19228A8E99200703165 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 212EED2F2887D51F00A3483C;
+					};
 					212EED2F2887D51F00A3483C = {
 						CreatedOnToolsVersion = 13.0;
 					};
@@ -590,11 +654,19 @@
 				212EED2F2887D51F00A3483C /* ZJHUnitTestDemo */,
 				212EED4A2887D52100A3483C /* ZJHUnitTestDemoTests */,
 				212EED542887D52100A3483C /* ZJHUnitTestDemoUITests */,
+				2125A19228A8E99200703165 /* ZJHKIFUnitTestDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2125A19128A8E99200703165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		212EED2E2887D51F00A3483C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -624,6 +696,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2100F69F0F63F9725A173DB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3AD397E680CE50507177CBC4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -707,9 +796,39 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZJHUnitTestDemoTests/Pods-ZJHUnitTestDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CEB875D9EF0820F853F5CDE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2125A18F28A8E99200703165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2125A19628A8E99200703165 /* ZJHKIFUnitTestDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		212EED2C2887D51F00A3483C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -734,6 +853,7 @@
 				21A782AD28A3781D00478264 /* TTRecordCellTableViewCell.m in Sources */,
 				21D1B86D28925BC1000E8E6E /* MOMen.m in Sources */,
 				21D1B87028925BD1000E8E6E /* MOAnimaiton.m in Sources */,
+				2125A19E28A8F20A00703165 /* ZJHKIFLoginViewController.m in Sources */,
 				21A782A428A3626300478264 /* ZJHLoginViewController.m in Sources */,
 				21D1B87F2892A60C000E8E6E /* ZJHOrderListViewController.m in Sources */,
 				21A782B328A378FF00478264 /* TTFakeNetworking.m in Sources */,
@@ -789,6 +909,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2125A19828A8E99200703165 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212EED2F2887D51F00A3483C /* ZJHUnitTestDemo */;
+			targetProxy = 2125A19728A8E99200703165 /* PBXContainerItemProxy */;
+		};
 		212EED4D2887D52100A3483C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 212EED2F2887D51F00A3483C /* ZJHUnitTestDemo */;
@@ -821,6 +946,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2125A19928A8E99200703165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27ECCDC22D0A0587BC27FD7D /* Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zjh.ZJHKIFUnitTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJHUnitTestDemo.app/ZJHUnitTestDemo";
+			};
+			name = Debug;
+		};
+		2125A19A28A8E99200703165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6D14C68510A8A27E633882 /* Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zjh.ZJHKIFUnitTestDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJHUnitTestDemo.app/ZJHUnitTestDemo";
+			};
+			name = Release;
+		};
 		212EED5D2887D52100A3483C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -941,6 +1110,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZJHUnitTestDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -969,6 +1139,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ZJHUnitTestDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -994,8 +1165,10 @@
 			baseConfigurationReference = CA6F2158AD28BFDE8CBC316E /* Pods-ZJHUnitTestDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1017,8 +1190,10 @@
 			baseConfigurationReference = 6B11DB765E027D202BC22972 /* Pods-ZJHUnitTestDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1039,8 +1214,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 72B55DB162E85A01E60A8BB1 /* Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests.debug.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6DERJ4N54;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1060,8 +1237,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65C77C625231756ED976F4D5 /* Pods-ZJHUnitTestDemo-ZJHUnitTestDemoUITests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6DERJ4N54;
 				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1080,6 +1259,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2125A19B28A8E99200703165 /* Build configuration list for PBXNativeTarget "ZJHKIFUnitTestDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2125A19928A8E99200703165 /* Debug */,
+				2125A19A28A8E99200703165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		212EED2B2887D51F00A3483C /* Build configuration list for PBXProject "ZJHUnitTestDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

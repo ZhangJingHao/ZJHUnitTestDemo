@@ -1,0 +1,6 @@
+framework module Pods_ZJHUnitTestDemo_ZJHKIFUnitTestDemoTests {
+  umbrella header "Pods-ZJHUnitTestDemo-ZJHKIFUnitTestDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,6 +14,15 @@ target 'ZJHUnitTestDemo' do
 
   target 'ZJHUnitTestDemoUITests' do
     # Pods for testing
+
+  end
+  
+  target 'ZJHKIFUnitTestDemoTests' do
+    # Pods for testing
+    pod 'KIF', :configurations => ['Debug']
+
   end
 
+  
+  
 end

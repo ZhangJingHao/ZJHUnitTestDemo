@@ -1,20 +1,26 @@
 PODS:
+  - KIF (3.8.7):
+    - KIF/Core (= 3.8.7)
+  - KIF/Core (3.8.7)
   - Kiwi (3.0.0)
   - OCMock (3.9.1)
 
 DEPENDENCIES:
+  - KIF
   - Kiwi
   - OCMock
 
 SPEC REPOS:
   trunk:
+    - KIF
     - Kiwi
     - OCMock
 
 SPEC CHECKSUMS:
+  KIF: 779cdbca106633b94ecee7b036537490ebdbd9de
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
   OCMock: 9491e4bec59e0b267d52a9184ff5605995e74be8
 
-PODFILE CHECKSUM: fa9b82526dbdb51276f00cea8608cc1dc61138ef
+PODFILE CHECKSUM: 861d90cb8b49841ed97bd1a3109667c59f442432
 
 COCOAPODS: 1.11.3

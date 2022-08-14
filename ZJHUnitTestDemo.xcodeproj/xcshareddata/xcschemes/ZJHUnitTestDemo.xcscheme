@@ -49,6 +49,16 @@
                ReferencedContainer = "container:ZJHUnitTestDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2125A19228A8E99200703165"
+               BuildableName = "ZJHKIFUnitTestDemoTests.xctest"
+               BlueprintName = "ZJHKIFUnitTestDemoTests"
+               ReferencedContainer = "container:ZJHUnitTestDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
