@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  ZJHUnitTestDemo
+
+  Created by ZJH on 2022/8/19.
+  
+*/
+
+"viewTitle" = "Reunification of the motherland";
+
+"viewTip" = "We must liberate Taiwan";
+
+"donationAmount" = "Donation amount: 100 $";
+
+"donationButton" = "Donation";
+
+"donationSuccess" = "Donation of success";
+
+"taiwaiIcon" = "taiwai03";

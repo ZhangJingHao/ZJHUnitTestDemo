@@ -40,6 +40,12 @@
 		216FA5ED2887E42200EFAD78 /* ZJHFirstKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5EC2887E42200EFAD78 /* ZJHFirstKiwiTests.m */; };
 		216FA5EF2887E91600EFAD78 /* ZJHSecondKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5EE2887E91600EFAD78 /* ZJHSecondKiwiTests.m */; };
 		216FA5F42887EEAA00EFAD78 /* ZJHThirdKiwiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 216FA5F32887EEAA00EFAD78 /* ZJHThirdKiwiTests.m */; };
+		218959D228AF224200385C0B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218959D728AF224200385C0B /* Localizable.strings */; };
+		218959D328AF224200385C0B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218959D728AF224200385C0B /* Localizable.strings */; };
+		218959D428AF224200385C0B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218959D728AF224200385C0B /* Localizable.strings */; };
+		218959D528AF224200385C0B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 218959D728AF224200385C0B /* Localizable.strings */; };
+		21A6C8C728AE4EB5006338B3 /* ZJHTestPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A6C8C628AE4EB5006338B3 /* ZJHTestPlanViewController.m */; };
+		21A6C8C928AE4F32006338B3 /* ZJHTestPlanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A6C8C828AE4F32006338B3 /* ZJHTestPlanUITests.m */; };
 		21A782A428A3626300478264 /* ZJHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A782A328A3626300478264 /* ZJHLoginViewController.m */; };
 		21A782A728A3780900478264 /* TTRecordListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A782A628A3780900478264 /* TTRecordListViewController.m */; };
 		21A782AC28A3781D00478264 /* TTRecordCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A782AA28A3781D00478264 /* TTRecordCellTableViewCell.xib */; };
@@ -151,6 +157,18 @@
 		216FA5EC2887E42200EFAD78 /* ZJHFirstKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHFirstKiwiTests.m; sourceTree = "<group>"; };
 		216FA5EE2887E91600EFAD78 /* ZJHSecondKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHSecondKiwiTests.m; sourceTree = "<group>"; };
 		216FA5F32887EEAA00EFAD78 /* ZJHThirdKiwiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHThirdKiwiTests.m; sourceTree = "<group>"; };
+		218959C928AF220800385C0B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		218959CA28AF220800385C0B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		218959CB28AF221000385C0B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		218959CC28AF221000385C0B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		218959D628AF224200385C0B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		218959D828AF224400385C0B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		218959D928AF224700385C0B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		218959DB28AF5EC000385C0B /* ZJHMultilingualTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ZJHMultilingualTestPlan.xctestplan; sourceTree = "<group>"; };
+		21A6C8C328AE3650006338B3 /* ZJHUnitTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ZJHUnitTestPlan.xctestplan; sourceTree = "<group>"; };
+		21A6C8C528AE4EB5006338B3 /* ZJHTestPlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHTestPlanViewController.h; sourceTree = "<group>"; };
+		21A6C8C628AE4EB5006338B3 /* ZJHTestPlanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHTestPlanViewController.m; sourceTree = "<group>"; };
+		21A6C8C828AE4F32006338B3 /* ZJHTestPlanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHTestPlanUITests.m; sourceTree = "<group>"; };
 		21A782A228A3626300478264 /* ZJHLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJHLoginViewController.h; sourceTree = "<group>"; };
 		21A782A328A3626300478264 /* ZJHLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJHLoginViewController.m; sourceTree = "<group>"; };
 		21A782A528A3780900478264 /* TTRecordListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTRecordListViewController.h; sourceTree = "<group>"; };
@@ -331,6 +349,7 @@
 			isa = PBXGroup;
 			children = (
 				212EED322887D51F00A3483C /* ZJHUnitTestDemo */,
+				21A6C8C228AE3614006338B3 /* ZJHTestPlans */,
 				212EED4E2887D52100A3483C /* ZJHUnitTestDemoTests */,
 				212EED582887D52100A3483C /* ZJHUnitTestDemoUITests */,
 				2125A19428A8E99200703165 /* ZJHKIFUnitTestDemoTests */,
@@ -364,10 +383,12 @@
 				21D9BB25289154F100CCD45C /* OCMockClass */,
 				21D9BB2328914CC900CCD45C /* KiwiClass */,
 				21A782A128A3623300478264 /* UITestClass */,
+				21A6C8C428AE4E96006338B3 /* TestPlanClass */,
 				212EED3C2887D51F00A3483C /* Main.storyboard */,
 				212EED3F2887D52100A3483C /* Assets.xcassets */,
 				212EED412887D52100A3483C /* LaunchScreen.storyboard */,
 				212EED442887D52100A3483C /* Info.plist */,
+				218959D728AF224200385C0B /* Localizable.strings */,
 				212EED452887D52100A3483C /* main.m */,
 			);
 			path = ZJHUnitTestDemo;
@@ -391,8 +412,27 @@
 				21419E9728A64DCC00B60A81 /* ZJHRecordUITests.m */,
 				2116E67028A7550100678BD7 /* ZJHMultiAppTests.m */,
 				2116E67528A79E1F00678BD7 /* AccessibilityUITests.m */,
+				21A6C8C828AE4F32006338B3 /* ZJHTestPlanUITests.m */,
 			);
 			path = ZJHUnitTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		21A6C8C228AE3614006338B3 /* ZJHTestPlans */ = {
+			isa = PBXGroup;
+			children = (
+				21A6C8C328AE3650006338B3 /* ZJHUnitTestPlan.xctestplan */,
+				218959DB28AF5EC000385C0B /* ZJHMultilingualTestPlan.xctestplan */,
+			);
+			path = ZJHTestPlans;
+			sourceTree = "<group>";
+		};
+		21A6C8C428AE4E96006338B3 /* TestPlanClass */ = {
+			isa = PBXGroup;
+			children = (
+				21A6C8C528AE4EB5006338B3 /* ZJHTestPlanViewController.h */,
+				21A6C8C628AE4EB5006338B3 /* ZJHTestPlanViewController.m */,
+			);
+			path = TestPlanClass;
 			sourceTree = "<group>";
 		};
 		21A782A128A3623300478264 /* UITestClass */ = {
@@ -639,6 +679,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 212EED272887D51F00A3483C;
 			productRefGroup = 212EED312887D51F00A3483C /* Products */;
@@ -658,6 +700,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218959D528AF224200385C0B /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +709,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				210992A02897D4B500C5269E /* photodata.bin in Resources */,
+				218959D228AF224200385C0B /* Localizable.strings in Resources */,
 				212EED432887D52100A3483C /* LaunchScreen.storyboard in Resources */,
 				212EED402887D52100A3483C /* Assets.xcassets in Resources */,
 				21A782AC28A3781D00478264 /* TTRecordCellTableViewCell.xib in Resources */,
@@ -677,6 +721,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218959D328AF224200385C0B /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -684,6 +729,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218959D428AF224200385C0B /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,6 +905,7 @@
 				212EED382887D51F00A3483C /* SceneDelegate.m in Sources */,
 				210992A52897D4B500C5269E /* PhotoCell.m in Sources */,
 				21D9BB31289155F300CCD45C /* ZJHTweetModel.m in Sources */,
+				21A6C8C728AE4EB5006338B3 /* ZJHTestPlanViewController.m in Sources */,
 				21D9BB18289143AF00CCD45C /* ZJHNetworkTool.m in Sources */,
 				210992A72897D4B500C5269E /* ZJHKiwiSample.m in Sources */,
 				21D9BB19289143AF00CCD45C /* ZJHPerson.m in Sources */,
@@ -895,6 +942,7 @@
 				2116E67128A7550100678BD7 /* ZJHMultiAppTests.m in Sources */,
 				2116E67628A79E1F00678BD7 /* AccessibilityUITests.m in Sources */,
 				21A782BB28A3A6EA00478264 /* ZJHUIRecordingTests.m in Sources */,
+				21A6C8C928AE4F32006338B3 /* ZJHTestPlanUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,6 +971,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				212EED3D2887D51F00A3483C /* Base */,
+				218959C928AF220800385C0B /* zh-Hans */,
+				218959CB28AF221000385C0B /* zh-Hant */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -931,8 +981,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				212EED422887D52100A3483C /* Base */,
+				218959CA28AF220800385C0B /* zh-Hans */,
+				218959CC28AF221000385C0B /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		218959D728AF224200385C0B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				218959D628AF224200385C0B /* en */,
+				218959D828AF224400385C0B /* zh-Hans */,
+				218959D928AF224700385C0B /* zh-Hant */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -986,6 +1048,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -1045,6 +1108,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

@@ -1,0 +1,48 @@
+{
+  "configurations" : [
+    {
+      "id" : "2E572174-B8E2-4EE7-B39A-AF5BFE88284B",
+      "name" : "America",
+      "options" : {
+        "language" : "en",
+        "region" : "US"
+      }
+    },
+    {
+      "id" : "46E5FC17-6749-4629-97FD-91A105A61C6E",
+      "name" : "China",
+      "options" : {
+        "language" : "zh-Hans",
+        "region" : "CN"
+      }
+    },
+    {
+      "id" : "899008D3-5D7F-4650-8D91-3DD25077AA6C",
+      "name" : "Taiwan",
+      "options" : {
+        "language" : "zh-Hant",
+        "region" : "TW"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "AccessibilityUITests",
+        "ZJHLoginUITests",
+        "ZJHMultiAppTests",
+        "ZJHRecordUITests",
+        "ZJHUIRecordingTests"
+      ],
+      "target" : {
+        "containerPath" : "container:ZJHUnitTestDemo.xcodeproj",
+        "identifier" : "212EED542887D52100A3483C",
+        "name" : "ZJHUnitTestDemoUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

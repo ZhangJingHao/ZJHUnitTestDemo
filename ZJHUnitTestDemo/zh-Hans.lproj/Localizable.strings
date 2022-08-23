@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  ZJHUnitTestDemo
+
+  Created by ZJH on 2022/8/19.
+  
+*/
+
+"viewTitle" = "祖国统一";
+
+"viewTip" = "我们一定要解放台湾";
+
+"donationAmount" = "捐款金额：100 ¥";
+
+"donationButton" = "捐款";
+
+"donationSuccess" = "捐款成功";
+
+"taiwaiIcon" = "taiwai01";

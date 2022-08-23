@@ -16,5 +16,99 @@
             stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCE668EB-0E10-4CDC-908C-2E71A6D49B41"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZJHUnitTestDemoUITests/ZJHTestPlanUITests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-testExample"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FCE668EB-0E10-4CDC-908C-2E71A6D49B41 - 46660023dceee36c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ZJHTestPlanUITests testExample]"
+                  moduleName = "ZJHUnitTestDemoUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangjh48/Desktop/MideaCode/1-ZJHCodeFile/ZJHUnitTestDemo/ZJHUnitTestDemoUITests/ZJHTestPlanUITests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2677">
+               </Location>
+               <Location
+                  uuid = "FCE668EB-0E10-4CDC-908C-2E71A6D49B41 - 46660023dceee36c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ZJHTestPlanUITests testExample]"
+                  moduleName = "ZJHUnitTestDemoUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangjh48/Desktop/MideaCode/1-ZJHCodeFile/ZJHUnitTestDemo/ZJHUnitTestDemoUITests/ZJHTestPlanUITests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "4024">
+               </Location>
+               <Location
+                  uuid = "FCE668EB-0E10-4CDC-908C-2E71A6D49B41 - 46660023dceee36c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ZJHTestPlanUITests testExample]"
+                  moduleName = "ZJHUnitTestDemoUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangjh48/Desktop/MideaCode/1-ZJHCodeFile/ZJHUnitTestDemo/ZJHUnitTestDemoUITests/ZJHTestPlanUITests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "4601">
+               </Location>
+               <Location
+                  uuid = "FCE668EB-0E10-4CDC-908C-2E71A6D49B41 - 46660023dceee36c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ZJHTestPlanUITests testExample]"
+                  moduleName = "ZJHUnitTestDemoUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangjh48/Desktop/MideaCode/1-ZJHCodeFile/ZJHUnitTestDemo/ZJHUnitTestDemoUITests/ZJHTestPlanUITests.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "4705">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E37A46E-6A82-45FF-A6A5-029A27B7EDCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZJHUnitTestDemoUITests/ZJHTestPlanUITests.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "-testExample"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

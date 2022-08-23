@@ -1,0 +1,47 @@
+{
+  "configurations" : [
+    {
+      "id" : "4631F5DE-0E25-49BA-9D34-FB838A9DF835",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "addressSanitizer" : {
+      "enabled" : true
+    },
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "ArchiveReadingSpec",
+        "ArrayDataSourceSpec",
+        "PhotoCellSpec",
+        "PhotosViewControllerSpec",
+        "SimpleStringSpec",
+        "ZJHExpectationKiwiSpec",
+        "ZJHKiwiSampleSpec",
+        "ZJHMockAPITests",
+        "ZJHMockDemoTests",
+        "ZJHTwitterViewControllerTests"
+      ],
+      "target" : {
+        "containerPath" : "container:ZJHUnitTestDemo.xcodeproj",
+        "identifier" : "212EED4A2887D52100A3483C",
+        "name" : "ZJHUnitTestDemoTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:ZJHUnitTestDemo.xcodeproj",
+        "identifier" : "2125A19228A8E99200703165",
+        "name" : "ZJHKIFUnitTestDemoTests"
+      }
+    }
+  ],
+  "version" : 1
+}

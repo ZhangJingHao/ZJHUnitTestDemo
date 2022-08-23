@@ -10,6 +10,7 @@
 #import "ZJHLoginViewController.h"
 #import "AccessibilityViewController.h"
 #import "ZJHKIFLoginViewController.h"
+#import "ZJHTestPlanViewController.h"
 
 @interface ViewController ()
 
@@ -20,19 +21,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"Home";
-//    self.view.backgroundColor = [UIColor redColor];
     [self setupUI];
+    
+    UIButton *btn = [UIButton new];
+    btn.tag = 5;
+//    [self clickBtn:btn];
 }
 
 - (void)setupUI {
-    NSArray *nameArr = @[@"Kiwi示例", @"UITestDemo", @"UI Recording", @"Accessibility Demo", @"KIFUnitTest"];
+    NSArray *nameArr = @[@"Kiwi示例", @"UITestDemo", @"UI Recording", @"Accessibility Demo", @"KIFUnitTest", @"Test Plan Demo"];
     CGFloat btnW = self.view.frame.size.width * 0.6;
     CGFloat btnX = (self.view.frame.size.width - btnW) / 2;
     CGFloat btnH = 44;
     CGFloat btnY = 0;
     CGFloat statusH = [UIApplication sharedApplication].statusBarFrame.size.height;
     CGFloat navH = self.navigationController.navigationBar.frame.size.height;
-    btnY = statusH + navH;
+    btnY = statusH + navH - 50;
     for (int i = 0; i < nameArr.count; i++) {
         btnY = btnY + btnH + 30;
         CGRect btnF = CGRectMake(btnX, btnY, btnW, btnH);
@@ -66,6 +70,9 @@
         [self.navigationController pushViewController:vc animated:YES];
     } else if (btn.tag == 4) {
         ZJHKIFLoginViewController *vc = [ZJHKIFLoginViewController new];
+        [self.navigationController pushViewController:vc animated:YES];
+    } else if (btn.tag == 5) {
+        ZJHTestPlanViewController *vc = [ZJHTestPlanViewController new];
         [self.navigationController pushViewController:vc animated:YES];
     }
     
